@@ -1,6 +1,6 @@
 ```mermaid
 graph TD  
-    A[Register AI Asset] -->|Default: No-Pool| B[Registered in SaharaRegistry]  
+    A[Register AI Asset] -->|Default: No-Pool| B["Registered in SaharaRegistry \nshare token-erc20"]  
     B --> C[Monetize via LicenseTokens ERC-721]  
     C --> D[Direct Fees in $SAHARA]  
 
